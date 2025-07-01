@@ -67,7 +67,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 - **Classes**: 37 fine-grained categories (e.g., different airplane models, types of ships, etc.)
 - **Annotation Format**: Oriented bounding boxes
 - **Published By**: Chinese Academy of Sciences (AIR)
-- **Website**: [https://www.aircas.ac.cn/databases/FAIR1M/](https://www.aircas.ac.cn/databases/FAIR1M/)
+- **Website**: [https://www.aircas.ac.cn/databases/FAIR1M/](https://www.gaofen-challenge.com/benchmark)
 - **Paper**: [https://arxiv.org/abs/2103.05569](https://arxiv.org/abs/2103.05569)
 
 ---
@@ -93,7 +93,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 |---------|---------------------|----------|-----------|------------------|----------------|----------------------|------|
 | DOTA    | Object Detection     | 2,806    | 15        | ~188k objects   | up to 4000×4000 | Oriented Bounding Box | [🔗](https://captain-whu.github.io/DOTA/dataset.html) |
 | LoveDA  | Semantic Segmentation| 5,987    | 7         | ~1.2 GB         | 512×512         | Per-pixel class map   | [🔗](https://github.com/Junjue-Wang/LoveDA) |
-| FAIR1M  | Fine-Grained Detection| 15,000+ | 37        | 1M+ objects     | Very high-res   | Oriented Bounding Box | [🔗](https://www.aircas.ac.cn/databases/FAIR1M/) |
+| FAIR1M  | Fine-Grained Detection| 15,000+ | 37        | 1M+ objects     | Very high-res   | Oriented Bounding Box | [🔗](https://www.gaofen-challenge.com/benchmark) |
 | AID     | Scene Classification | 10,000   | 30        | ~2.2 GB         | 600×600         | Single scene label    | [🔗](https://captain-whu.github.io/AID/) |
 
 
