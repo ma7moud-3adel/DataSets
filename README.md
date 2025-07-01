@@ -67,7 +67,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 - **Classes**: 37 fine-grained categories (e.g., different airplane models, types of ships, etc.)
 - **Annotation Format**: Oriented bounding boxes
 - **Published By**: Chinese Academy of Sciences (AIR)
-- **Website**: [https://www.aircas.ac.cn/databases/FAIR1M/](https://www.gaofen-challenge.com/benchmark)
+- **Website**: [https://www.gaofen-challenge.com/benchmark](https://www.gaofen-challenge.com/benchmark)
 - **Paper**: [https://arxiv.org/abs/2103.05569](https://arxiv.org/abs/2103.05569)
 
 ---
