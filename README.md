@@ -9,9 +9,9 @@ This repository provides a curated collection of **large-scale datasets** focuse
 - [Why This Repo?](#why-this-repo)
 - [Featured Datasets](#featured-datasets)
   - <a href="#dota">DOTA</a>
-  - [LoveDA](#2-loveda)
-  - [FAIR1M](#3-fair1m)
-  - [AID](#4-aid)
+  - <a href="#loveDA">LoveDA</a>
+  - <a href="#fair">FAIR1M</a>
+  - <a href="#aid">AID</a>
 - [Comparison Table](#comparison-table)
 - [Coming Soon](#coming-soon)
 <!-- - [Contributing](#contributing)
@@ -30,7 +30,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 
 ## 🌍 Featured Datasets
 
-<h2 id="dota"> 1. DOTA (Dataset for Object Detection in Aerial Images) </h2>
+<h3 id="dota"> 1. DOTA (Dataset for Object Detection in Aerial Images) </h3>
 
 - **Task**: Object Detection
 - **Images**: ~2,800 high-resolution aerial images
@@ -45,7 +45,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 
 ---
 
-### 2. LoveDA (Land-cover Classification in Very High Resolution)
+<h3 id = "loveDA" > 2. LoveDA (Land-cover Classification in Very High Resolution) </h3>
 
 - **Task**: Semantic Segmentation
 - **Images**: 5987 image patches (512x512 px)
@@ -59,7 +59,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 
 ---
 
-### 3. FAIR1M (Fine-Grained Object Recognition in Aerial Images)
+<h3 id = "fair" > 3. FAIR1M (Fine-Grained Object Recognition in Aerial Images) </h3>
 
 - **Task**: Fine-Grained Object Detection
 - **Images**: 15,000+ high-resolution aerial images
@@ -72,7 +72,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 
 ---
 
-### 4. AID (Aerial Image Dataset)
+<h3 id = "aid" > 4. AID (Aerial Image Dataset) </h3>
 
 - **Task**: Scene Classification
 - **Images**: 10,000 RGB aerial images
