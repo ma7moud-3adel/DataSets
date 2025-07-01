@@ -244,8 +244,9 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 
 More datasets will be added soon, including:
 
-- **xView** – Object detection, 1 million objects
+- **iSAID** – (Instance Segmentation in Aerial Images Dataset)
 - **SpaceNet** – Building & road extraction
+- **xView** – Object detection, 1 million 
 - **DeepGlobe** – Land cover, road, and building segmentation
 - **BigEarthNet** – Multi-label classification using Sentinel-2
 - **SEN12MS** – Multispectral image dataset for classification and segmentation
