@@ -11,6 +11,7 @@ This repository provides a curated collection of **large-scale datasets** focuse
   - [DOTA](#1-dota)
   - [LoveDA](#2-loveda)
   - [FAIR1M](#3-fair1m)
+  - [AID](#4-aid)
 - [Comparison Table](#comparison-table)
 - [Coming Soon](#coming-soon)
 - [Contributing](#contributing)
@@ -71,6 +72,21 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 
 ---
 
+### 4. AID (Aerial Image Dataset)
+
+- **Task**: Scene Classification
+- **Images**: 10,000 RGB aerial images
+- **Resolution**: 600 × 600 pixels
+- **Classes**: 30 scene types
+- **Scene Types**: Urban, rural, industrial, agricultural, etc.
+- **Labeling**: Each image has a single scene label
+- **Split**: No fixed split — can be customized
+- **Published By**: Wuhan University
+- **Website**: [AID Dataset](https://captain-whu.github.io/AID/)
+- **Paper**: [https://ieeexplore.ieee.org/document/7444843](https://ieeexplore.ieee.org/document/7444843)
+
+---
+
 ## 📊 Comparison Table
 
 | Dataset | Task                | # Images | # Classes | Size            | Resolution     | Annotations         | Link |
@@ -78,6 +94,8 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 | DOTA    | Object Detection     | 2,806    | 15        | ~188k objects   | up to 4000×4000 | Oriented Bounding Box | [🔗](https://captain-whu.github.io/DOTA/dataset.html) |
 | LoveDA  | Semantic Segmentation| 5,987    | 7         | ~1.2 GB         | 512×512         | Per-pixel class map   | [🔗](https://github.com/Junjue-Wang/LoveDA) |
 | FAIR1M  | Fine-Grained Detection| 15,000+ | 37        | 1M+ objects     | Very high-res   | Oriented Bounding Box | [🔗](https://www.aircas.ac.cn/databases/FAIR1M/) |
+| AID     | Scene Classification | 10,000   | 30        | ~2.2 GB         | 600×600         | Single scene label    | [🔗](https://captain-whu.github.io/AID/) |
+
 
 ---
 ## 🏷️ Class Lists
@@ -183,6 +201,44 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 | Ground track field     | Running tracks                          |
 | Bridge                 | Structure connecting two sides over obstacles |
 
+---
+
+### 🔹 AID – 30 Scene Classification Classes
+
+| Class ID | Class Name        | Description                             |
+|----------|-------------------|-----------------------------------------|
+| 0        | Airport            | Airport runways and terminal buildings  |
+| 1        | Bare land          | Unused or barren terrain                |
+| 2        | Baseball field     | Outdoor sports field                    |
+| 3        | Beach              | Sandy coastal area                      |
+| 4        | Bridge             | Bridge structures                       |
+| 5        | Center             | City/town center area                   |
+| 6        | Church             | Religious buildings                     |
+| 7        | Commercial         | Business districts and malls            |
+| 8        | Dense residential  | High-density housing                    |
+| 9        | Desert             | Arid sandy areas                        |
+| 10       | Farmland           | Agricultural land                       |
+| 11       | Forest             | Tree-covered land                       |
+| 12       | Industrial         | Factories, warehouses                   |
+| 13       | Meadow             | Open grassy fields                      |
+| 14       | Medium residential | Mid-density housing                     |
+| 15       | Mountain           | Mountainous terrain                     |
+| 16       | Park               | Recreational green areas                |
+| 17       | Parking            | Car parks and lots                      |
+| 18       | Playground         | Outdoor play areas                      |
+| 19       | Pond               | Small water bodies                      |
+| 20       | Port               | Docking areas for ships                 |
+| 21       | Railway station    | Train terminals                         |
+| 22       | Resort             | Tourist resorts                         |
+| 23       | River              | Flowing water channels                  |
+| 24       | School             | Educational facilities                  |
+| 25       | Sparse residential | Low-density housing                     |
+| 26       | Square             | Open public space                       |
+| 27       | Stadium            | Sports stadiums                         |
+| 28       | Storage tank       | Large circular containers               |
+| 29       | Viaduct            | Elevated roads                          |
+
+
 
 ## 🔜 Coming Soon
 
@@ -196,7 +252,7 @@ More datasets will be added soon, including:
 
 ---
 
-## 🤝 Contributing
+<!-- ## 🤝 Contributing
 
 Feel free to open issues or pull requests!  
 Want to add a new dataset? Please include:
@@ -216,4 +272,4 @@ Please check each dataset's license before commercial use.
 
 ---
 
-## ⭐ If you find this useful, don't forget to star the repo!
+## ⭐ If you find this useful, don't forget to star the repo! -->
