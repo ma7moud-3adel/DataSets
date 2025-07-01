@@ -8,14 +8,14 @@ This repository provides a curated collection of **large-scale datasets** focuse
 
 - [Why This Repo?](#why-this-repo)
 - [Featured Datasets](#featured-datasets)
-  - [DOTA](#1-dota)
+  - <a href="#dota">DOTA</a>
   - [LoveDA](#2-loveda)
   - [FAIR1M](#3-fair1m)
   - [AID](#4-aid)
 - [Comparison Table](#comparison-table)
 - [Coming Soon](#coming-soon)
-- [Contributing](#contributing)
-- [License](#license)
+<!-- - [Contributing](#contributing)
+- [License](#license) -->
 
 ---
 
@@ -30,7 +30,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 
 ## 🌍 Featured Datasets
 
-### 1. DOTA (Dataset for Object Detection in Aerial Images)
+<h2 id="dota"> 1. DOTA (Dataset for Object Detection in Aerial Images) </h2>
 
 - **Task**: Object Detection
 - **Images**: ~2,800 high-resolution aerial images
