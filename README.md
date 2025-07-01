@@ -8,10 +8,10 @@ This repository provides a curated collection of **large-scale datasets** focuse
 
 - [Why This Repo?](#why-this-repo)
 - [Featured Datasets](#featured-datasets)
-  - <a href="#dota" scroll-behavior: smooth; >DOTA</a>
-  - <a href="#loveDA" scroll-behavior: smooth; >LoveDA</a>
-  - <a href="#fair" scroll-behavior: smooth; >FAIR1M</a>
-  - <a href="#aid" scroll-behavior: smooth; >AID</a>
+  - <a href="#dota">DOTA</a>
+  - <a href="#loveDA">LoveDA</a>
+  - <a href="#fair">FAIR1M</a>
+  - <a href="#aid">AID</a>
 - [Comparison Table](#comparison-table)
 - [Coming Soon](#coming-soon)
 <!-- - [Contributing](#contributing)
