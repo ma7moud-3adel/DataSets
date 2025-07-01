@@ -1,214 +1,275 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Large-Scale Datasets</title>
-<style>
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    line-height: 1.6;
-    color: #333;
-  }
-  h1, h2, h3 {
-    margin-top: 2rem;
-  }
-  a {
-    color: #0366d6;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  hr {
-    margin: 2rem 0;
-  }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 1rem 0;
-  }
-  th, td {
-    border: 1px solid #ddd;
-    padding: 0.5rem;
-  }
-  th {
-    background-color: #f6f8fa;
-    text-align: left;
-  }
-  ul {
-    padding-left: 1.2rem;
-  }
-</style>
-</head>
-<body>
+# 🛰️ Large-Scale Datasets
 
-<h1>🛰️ Large-Scale Datasets</h1>
+This repository provides a curated collection of **large-scale datasets** focused on **remote sensing**, **semantic segmentation**, and **object detection** from aerial and satellite imagery. It's designed to help researchers, engineers, and enthusiasts quickly find and explore the most relevant datasets for Earth observation tasks.
 
-<p>This repository provides a curated collection of <strong>large-scale datasets</strong> focused on <strong>remote sensing</strong>, <strong>semantic segmentation</strong>, and <strong>object detection</strong> from aerial and satellite imagery. It's designed to help researchers, engineers, and enthusiasts quickly find and explore the most relevant datasets for Earth observation tasks.</p>
+---
 
-<hr />
+## 📌 Table of Contents
 
-<h2>📌 Table of Contents</h2>
-<ul>
-  <li><a href="#dota">DOTA</a></li>
-  <li><a href="#loveDA">LoveDA</a></li>
-  <li><a href="#fair">FAIR1M</a></li>
-  <li><a href="#aid">AID</a></li>
-  <li><a href="#comparison-table">Comparison Table</a></li>
-  <li><a href="#coming-soon">Coming Soon</a></li>
-</ul>
+- [Why This Repo?](#why-this-repo)
+- [Featured Datasets](#featured-datasets)
+  - <a href="#dota" scroll-behavior: smooth; >DOTA</a>
+  - <a href="#loveDA" scroll-behavior: smooth; >LoveDA</a>
+  - <a href="#fair" scroll-behavior: smooth; >FAIR1M</a>
+  - <a href="#aid" scroll-behavior: smooth; >AID</a>
+- [Comparison Table](#comparison-table)
+- [Coming Soon](#coming-soon)
+<!-- - [Contributing](#contributing)
+- [License](#license) -->
 
-<hr />
+---
 
-<h2 id="why-this-repo">❓ Why This Repo?</h2>
-<p>Working with large-scale satellite or aerial imagery data can be overwhelming. This repo:</p>
-<ul>
-  <li>Collects the most impactful and widely used datasets.</li>
-  <li>Lists key details like tasks, classes, size, and links.</li>
-  <li>Aims to save time for people starting new projects or doing research.</li>
-</ul>
+## ❓ Why This Repo?
 
-<hr />
+Working with large-scale satellite or aerial imagery data can be overwhelming. This repo:
+- Collects the most impactful and widely used datasets.
+- Lists key details like tasks, classes, size, and links.
+- Aims to save time for people starting new projects or doing research.
 
-<h2>🌍 Featured Datasets</h2>
+---
 
-<h3 id="dota">1. DOTA (Dataset for Object Detection in Aerial Images)</h3>
-<ul>
-  <li><strong>Task</strong>: Object Detection</li>
-  <li><strong>Images</strong>: ~2,800 high-resolution aerial images</li>
-  <li><strong>Annotations</strong>: ~188,000 object instances</li>
-  <li><strong>Image Resolution</strong>: Ranges from 800×800 to 4000×4000 pixels</li>
-  <li><strong>Classes</strong>: 15 (e.g., plane, ship, storage tank, vehicle, etc.)</li>
-  <li><strong>Annotation Format</strong>: Oriented bounding boxes</li>
-  <li><strong>Split</strong>: Train / Val / Test</li>
-  <li><strong>Published By</strong>: Wuhan University</li>
-  <li><strong>Website</strong>: <a href="https://captain-whu.github.io/DOTA/dataset.html" target="_blank" rel="noopener noreferrer">https://captain-whu.github.io/DOTA/dataset.html</a></li>
-  <li><strong>Paper</strong>: <a href="https://arxiv.org/abs/1711.10398" target="_blank" rel="noopener noreferrer">Link to Paper</a></li>
-</ul>
+## 🌍 Featured Datasets
 
-<hr />
+<h3 id="dota"> 1. DOTA (Dataset for Object Detection in Aerial Images) </h3>
 
-<h3 id="loveDA">2. LoveDA (Land-cover Classification in Very High Resolution)</h3>
-<ul>
-  <li><strong>Task</strong>: Semantic Segmentation</li>
-  <li><strong>Images</strong>: 5987 image patches (512x512 px)</li>
-  <li><strong>Scenes</strong>: Urban and Rural</li>
-  <li><strong>Classes</strong>: 7 (Background, Building, Road, Water, Barren, Forest, Agricultural)</li>
-  <li><strong>Split</strong>: Train (2522) / Val (1669) / Test (1796)</li>
-  <li><strong>Unique Point</strong>: Designed to evaluate model generalization between urban and rural environments</li>
-  <li><strong>Published By</strong>: Nanjing University</li>
-  <li><strong>Website</strong>: <a href="https://github.com/Junjue-Wang/LoveDA" target="_blank" rel="noopener noreferrer">https://github.com/Junjue-Wang/LoveDA</a></li>
-  <li><strong>Paper</strong>: <a href="https://arxiv.org/abs/2108.08874" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2108.08874</a></li>
-</ul>
+- **Task**: Object Detection
+- **Images**: ~2,800 high-resolution aerial images
+- **Annotations**: ~188,000 object instances
+- **Image Resolution**: Ranges from 800×800 to 4000×4000 pixels
+- **Classes**: 15 (e.g., plane, ship, storage tank, vehicle, etc.)
+- **Annotation Format**: Oriented bounding boxes
+- **Split**: Train / Val / Test
+- **Published By**: Wuhan University
+- **Website**: [https://captain-whu.github.io/DOTA/dataset.html](https://captain-whu.github.io/DOTA/dataset.html)
+- **Paper**: [Link to Paper](https://arxiv.org/abs/1711.10398)
 
-<hr />
+---
 
-<h3 id="fair">3. FAIR1M (Fine-Grained Object Recognition in Aerial Images)</h3>
-<ul>
-  <li><strong>Task</strong>: Fine-Grained Object Detection</li>
-  <li><strong>Images</strong>: 15,000+ high-resolution aerial images</li>
-  <li><strong>Annotations</strong>: 1 million+ object instances</li>
-  <li><strong>Classes</strong>: 37 fine-grained categories (e.g., different airplane models, types of ships, etc.)</li>
-  <li><strong>Annotation Format</strong>: Oriented bounding boxes</li>
-  <li><strong>Published By</strong>: Chinese Academy of Sciences (AIR)</li>
-  <li><strong>Website</strong>: <a href="https://www.aircas.ac.cn/databases/FAIR1M/" target="_blank" rel="noopener noreferrer">https://www.aircas.ac.cn/databases/FAIR1M/</a></li>
-  <li><strong>Paper</strong>: <a href="https://arxiv.org/abs/2103.05569" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2103.05569</a></li>
-</ul>
+<h3 id = "loveDA" > 2. LoveDA (Land-cover Classification in Very High Resolution) </h3>
 
-<hr />
+- **Task**: Semantic Segmentation
+- **Images**: 5987 image patches (512x512 px)
+- **Scenes**: Urban and Rural
+- **Classes**: 7 (Background, Building, Road, Water, Barren, Forest, Agricultural)
+- **Split**: Train (2522) / Val (1669) / Test (1796)
+- **Unique Point**: Designed to evaluate model generalization between urban and rural environments
+- **Published By**: Nanjing University
+- **Website**: [https://github.com/Junjue-Wang/LoveDA](https://github.com/Junjue-Wang/LoveDA)
+- **Paper**: [https://arxiv.org/abs/2108.08874](https://arxiv.org/abs/2108.08874)
 
-<h3 id="aid">4. AID (Aerial Image Dataset)</h3>
-<ul>
-  <li><strong>Task</strong>: Scene Classification</li>
-  <li><strong>Images</strong>: 10,000 RGB aerial images</li>
-  <li><strong>Resolution</strong>: 600 × 600 pixels</li>
-  <li><strong>Classes</strong>: 30 scene types</li>
-  <li><strong>Scene Types</strong>: Urban, rural, industrial, agricultural, etc.</li>
-  <li><strong>Labeling</strong>: Each image has a single scene label</li>
-  <li><strong>Split</strong>: No fixed split — can be customized</li>
-  <li><strong>Published By</strong>: Wuhan University</li>
-  <li><strong>Website</strong>: <a href="https://captain-whu.github.io/AID/" target="_blank" rel="noopener noreferrer">AID Dataset</a></li>
-  <li><strong>Paper</strong>: <a href="https://ieeexplore.ieee.org/document/7444843" target="_blank" rel="noopener noreferrer">https://ieeexplore.ieee.org/document/7444843</a></li>
-</ul>
+---
 
-<hr />
+<h3 id = "fair" > 3. FAIR1M (Fine-Grained Object Recognition in Aerial Images) </h3>
 
-<h2 id="comparison-table">📊 Comparison Table</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Dataset</th>
-      <th>Task</th>
-      <th># Images</th>
-      <th># Classes</th>
-      <th>Size</th>
-      <th>Resolution</th>
-      <th>Annotations</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>DOTA</td>
-      <td>Object Detection</td>
-      <td>2,806</td>
-      <td>15</td>
-      <td>~188k objects</td>
-      <td>up to 4000×4000</td>
-      <td>Oriented Bounding Box</td>
-      <td><a href="https://captain-whu.github.io/DOTA/dataset.html" target="_blank" rel="noopener noreferrer">🔗</a></td>
-    </tr>
-    <tr>
-      <td>LoveDA</td>
-      <td>Semantic Segmentation</td>
-      <td>5,987</td>
-      <td>7</td>
-      <td>~1.2 GB</td>
-      <td>512×512</td>
-      <td>Per-pixel class map</td>
-      <td><a href="https://github.com/Junjue-Wang/LoveDA" target="_blank" rel="noopener noreferrer">🔗</a></td>
-    </tr>
-    <tr>
-      <td>FAIR1M</td>
-      <td>Fine-Grained Detection</td>
-      <td>15,000+</td>
-      <td>37</td>
-      <td>1M+ objects</td>
-      <td>Very high-res</td>
-      <td>Oriented Bounding Box</td>
-      <td><a href="https://www.aircas.ac.cn/databases/FAIR1M/" target="_blank" rel="noopener noreferrer">🔗</a></td>
-    </tr>
-    <tr>
-      <td>AID</td>
-      <td>Scene Classification</td>
-      <td>10,000</td>
-      <td>30</td>
-      <td>~2.2 GB</td>
-      <td>600×600</td>
-      <td>Single scene label</td>
-      <td><a href="https://captain-whu.github.io/AID/" target="_blank" rel="noopener noreferrer">🔗</a></td>
-    </tr>
-  </tbody>
-</table>
+- **Task**: Fine-Grained Object Detection
+- **Images**: 15,000+ high-resolution aerial images
+- **Annotations**: 1 million+ object instances
+- **Classes**: 37 fine-grained categories (e.g., different airplane models, types of ships, etc.)
+- **Annotation Format**: Oriented bounding boxes
+- **Published By**: Chinese Academy of Sciences (AIR)
+- **Website**: [https://www.aircas.ac.cn/databases/FAIR1M/](https://www.aircas.ac.cn/databases/FAIR1M/)
+- **Paper**: [https://arxiv.org/abs/2103.05569](https://arxiv.org/abs/2103.05569)
 
-<hr />
+---
 
-<h2 id="coming-soon">🔜 Coming Soon</h2>
-<p>More datasets will be added soon, including:</p>
-<ul>
-  <li><strong>xView</strong> – Object detection, 1 million objects</li>
-  <li><strong>SpaceNet</strong> – Building & road extraction</li>
-  <li><strong>DeepGlobe</strong> – Land cover, road, and building segmentation</li>
-  <li><strong>BigEarthNet</strong> – Multi-label classification using Sentinel-2</li>
-  <li><strong>SEN12MS</strong> – Multispectral image dataset for classification and segmentation</li>
-</ul>
+<h3 id = "aid" > 4. AID (Aerial Image Dataset) </h3>
 
-</body>
-</html>
+- **Task**: Scene Classification
+- **Images**: 10,000 RGB aerial images
+- **Resolution**: 600 × 600 pixels
+- **Classes**: 30 scene types
+- **Scene Types**: Urban, rural, industrial, agricultural, etc.
+- **Labeling**: Each image has a single scene label
+- **Split**: No fixed split — can be customized
+- **Published By**: Wuhan University
+- **Website**: [AID Dataset](https://captain-whu.github.io/AID/)
+- **Paper**: [https://ieeexplore.ieee.org/document/7444843](https://ieeexplore.ieee.org/document/7444843)
+
+---
+
+## 📊 Comparison Table
+
+| Dataset | Task                | # Images | # Classes | Size            | Resolution     | Annotations         | Link |
+|---------|---------------------|----------|-----------|------------------|----------------|----------------------|------|
+| DOTA    | Object Detection     | 2,806    | 15        | ~188k objects   | up to 4000×4000 | Oriented Bounding Box | [🔗](https://captain-whu.github.io/DOTA/dataset.html) |
+| LoveDA  | Semantic Segmentation| 5,987    | 7         | ~1.2 GB         | 512×512         | Per-pixel class map   | [🔗](https://github.com/Junjue-Wang/LoveDA) |
+| FAIR1M  | Fine-Grained Detection| 15,000+ | 37        | 1M+ objects     | Very high-res   | Oriented Bounding Box | [🔗](https://www.aircas.ac.cn/databases/FAIR1M/) |
+| AID     | Scene Classification | 10,000   | 30        | ~2.2 GB         | 600×600         | Single scene label    | [🔗](https://captain-whu.github.io/AID/) |
+
+
+---
+## 🏷️ Class Lists
+
+---
+
+### 🔹 DOTA – 15 Object Detection Classes
+
+| Class Name           | Description                            |
+|----------------------|----------------------------------------|
+| plane                | Airplanes of all types (e.g., jets, small planes) |
+| baseball-diamond     | Baseball fields seen from above        |
+| bridge               | Bridges over water or roads            |
+| ground-track-field   | Running tracks                         |
+| small-vehicle        | Cars, small trucks                     |
+| large-vehicle        | Trucks, buses, large machinery         |
+| ship                 | Boats, cargo ships                     |
+| tennis-court         | Tennis courts                          |
+| basketball-court     | Basketball courts                      |
+| storage-tank         | Industrial storage tanks               |
+| soccer-ball-field    | Soccer fields                          |
+| roundabout           | Circular traffic intersections         |
+| harbor               | Ports and docking areas                |
+| swimming-pool        | Outdoor pools                          |
+| helicopter           | Stationary or flying helicopters       |
+
+---
+
+### 🔹 LoveDA – 7 Land Cover Segmentation Classes
+
+| Class ID | Class Name     | Description                          |
+|----------|----------------|--------------------------------------|
+| 0        | Background      | Irrelevant or undefined pixels       |
+| 1        | Building        | Urban structures                     |
+| 2        | Road            | Streets, highways, and paths         |
+| 3        | Water           | Rivers, lakes, ponds                 |
+| 4        | Barren          | Empty land with no vegetation        |
+| 5        | Forest          | Tree-covered green areas             |
+| 6        | Agricultural    | Farmland, crop fields                |
+
+---
+
+### 🔹 FAIR1M – 37 Fine-Grained Detection Classes
+
+#### 🚗 Vehicle Categories
+
+| Class Name    | Description               |
+|---------------|---------------------------|
+| Small car     | Compact private vehicles  |
+| Bus           | Public transport buses    |
+| Cargo truck   | Large freight trucks      |
+| Dump truck    | Heavy-duty construction vehicles |
+| Van           | Delivery vans             |
+| Trailer       | Attached transport unit   |
+| Pickup        | Pickup trucks             |
+| Other vehicle | Miscellaneous vehicles    |
+
+#### ✈️ Aircraft Categories
+
+| Class Name        | Description                         |
+|-------------------|-------------------------------------|
+| Passenger plane   | Commercial airliners                |
+| Fighter jet       | Military combat aircraft            |
+| Trainer aircraft  | Planes used for pilot training      |
+| Bomber            | Military bombing aircraft           |
+| Helicopter        | Rotorcraft aircraft                 |
+| Other aircraft    | Other flying machines               |
+
+#### 🚢 Ship Categories
+
+| Class Name      | Description                    |
+|-----------------|--------------------------------|
+| Passenger ship  | Ships for transporting people  |
+| Cargo ship      | Ships for transporting goods   |
+| Fishing boat    | Boats used for fishing         |
+| Warship         | Military ships                 |
+| Sailing boat    | Boats powered by wind          |
+| Tugboat         | Small, powerful towing boats   |
+| Other ship      | Miscellaneous watercraft       |
+
+#### 🏗️ Infrastructure & Facilities
+
+| Class Name      | Description                             |
+|-----------------|-----------------------------------------|
+| Storage tank    | Industrial storage containers           |
+| Oil tank        | Tanks for oil or fuel                   |
+| Roundabout      | Circular traffic intersection           |
+| Baseball field  | Outdoor sports field                    |
+| Basketball court| Outdoor or indoor court for basketball  |
+| Tennis court    | Sports court for tennis                 |
+| Soccer field    | Sports field for football/soccer        |
+
+#### 🏭 Other Structures
+
+| Class Name             | Description                             |
+|------------------------|-----------------------------------------|
+| Windmill               | Wind energy turbines                    |
+| Expressway toll station| Highway toll booths                     |
+| Overpass               | Elevated road segments                  |
+| Chimney                | Industrial smokestacks                  |
+| Harbor                 | Port or docking area                    |
+| Airport runway         | Takeoff and landing strip               |
+| Ground track field     | Running tracks                          |
+| Bridge                 | Structure connecting two sides over obstacles |
+
+---
+
+### 🔹 AID – 30 Scene Classification Classes
+
+| Class ID | Class Name        | Description                             |
+|----------|-------------------|-----------------------------------------|
+| 0        | Airport            | Airport runways and terminal buildings  |
+| 1        | Bare land          | Unused or barren terrain                |
+| 2        | Baseball field     | Outdoor sports field                    |
+| 3        | Beach              | Sandy coastal area                      |
+| 4        | Bridge             | Bridge structures                       |
+| 5        | Center             | City/town center area                   |
+| 6        | Church             | Religious buildings                     |
+| 7        | Commercial         | Business districts and malls            |
+| 8        | Dense residential  | High-density housing                    |
+| 9        | Desert             | Arid sandy areas                        |
+| 10       | Farmland           | Agricultural land                       |
+| 11       | Forest             | Tree-covered land                       |
+| 12       | Industrial         | Factories, warehouses                   |
+| 13       | Meadow             | Open grassy fields                      |
+| 14       | Medium residential | Mid-density housing                     |
+| 15       | Mountain           | Mountainous terrain                     |
+| 16       | Park               | Recreational green areas                |
+| 17       | Parking            | Car parks and lots                      |
+| 18       | Playground         | Outdoor play areas                      |
+| 19       | Pond               | Small water bodies                      |
+| 20       | Port               | Docking areas for ships                 |
+| 21       | Railway station    | Train terminals                         |
+| 22       | Resort             | Tourist resorts                         |
+| 23       | River              | Flowing water channels                  |
+| 24       | School             | Educational facilities                  |
+| 25       | Sparse residential | Low-density housing                     |
+| 26       | Square             | Open public space                       |
+| 27       | Stadium            | Sports stadiums                         |
+| 28       | Storage tank       | Large circular containers               |
+| 29       | Viaduct            | Elevated roads                          |
+
+
+
+## 🔜 Coming Soon
+
+More datasets will be added soon, including:
+
+- **xView** – Object detection, 1 million objects
+- **SpaceNet** – Building & road extraction
+- **DeepGlobe** – Land cover, road, and building segmentation
+- **BigEarthNet** – Multi-label classification using Sentinel-2
+- **SEN12MS** – Multispectral image dataset for classification and segmentation
+
+---
+
+<!-- ## 🤝 Contributing
+
+Feel free to open issues or pull requests!  
+Want to add a new dataset? Please include:
+
+- Dataset name and description
+- Main task (e.g., detection, segmentation)
+- Link to official page
+- Classes and format
+- Any paper or reference
+
+---
+
+## 📜 License
+
+This repository is open for **academic and research purposes**.  
+Please check each dataset's license before commercial use.
+
+---
+
+## ⭐ If you find this useful, don't forget to star the repo! -->
