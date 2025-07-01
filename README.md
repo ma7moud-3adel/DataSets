@@ -1,3 +1,4 @@
+<html>
 <head>
   <style>
     html {
@@ -281,3 +282,4 @@ Please check each dataset's license before commercial use.
 ---
 
 ## ⭐ If you find this useful, don't forget to star the repo! -->
+</html>
