@@ -1,3 +1,11 @@
+<head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
 # 🛰️ Large-Scale Datasets
 
 This repository provides a curated collection of **large-scale datasets** focused on **remote sensing**, **semantic segmentation**, and **object detection** from aerial and satellite imagery. It's designed to help researchers, engineers, and enthusiasts quickly find and explore the most relevant datasets for Earth observation tasks.
