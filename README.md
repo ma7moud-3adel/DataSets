@@ -101,7 +101,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 - **Published By**: Wuhan University
 - **Website**: [https://captain-whu.github.io/iSAID/dataset.html](https://captain-whu.github.io/iSAID/dataset.html)
 - **Paper**: [https://arxiv.org/abs/1905.12886](https://arxiv.org/abs/1905.12886)
-<hr>
+##
 
 ## 📦 How to Download iSAID
 
