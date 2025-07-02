@@ -12,6 +12,7 @@ This repository provides a curated collection of **large-scale datasets** focuse
   - <a href="#loveDA">LoveDA</a>
   - <a href="#fair">FAIR1M</a>
   - <a href="#aid">AID</a>
+  - <a href="#isaid">iSAID</a>
 - [Comparison Table](#comparison-table)
 - [Coming Soon](#coming-soon)
 <!-- - [Contributing](#contributing)
@@ -87,6 +88,35 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 
 ---
 
+<h3 id = "isaid" > 5. iSAID (Instance Segmentation in Aerial Images Dataset) </h3>
+
+- **Task**: Instance Segmentation
+- **Images**: 2,806 high-resolution RGB aerial images
+- **Annotations**: 655,451 instance-level masks
+- **Image Resolution**: Up to 13,000 pixels wide
+- **Classes**: 15 (same as DOTA)
+- **Annotation Format**: Pixel-wise instance masks (COCO-style)
+- **Split**: Train (1,411) / Val (458) / Test (937)
+- **Built On**: DOTA v1.0 images
+- **Published By**: Wuhan University
+- **Website**: [https://captain-whu.github.io/iSAID/dataset.html](https://captain-whu.github.io/iSAID/dataset.html)
+- **Paper**: [https://arxiv.org/abs/1905.12886](https://arxiv.org/abs/1905.12886)
+<hr>
+
+## 📦 How to Download iSAID
+
+- Visit [iSAID website](https://captain-whu.github.io/iSAID/dataset.html)
+- Follow instructions to request access or download
+- Includes:
+  - Original full-resolution images
+  - 800×800 patches with 150px overlap
+  - JSON annotations (COCO format)
+  - Instance segmentation masks (PNG)
+- DevKit: [iSAID_Devkit on GitHub](https://github.com/CAPTAIN-WHU/iSAID_Devkit)
+
+
+---
+
 ## 📊 Comparison Table
 
 | Dataset | Task                | # Images | # Classes | Size            | Resolution     | Annotations         | Link |
@@ -95,6 +125,7 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 | LoveDA  | Semantic Segmentation| 5,987    | 7         | ~1.2 GB         | 512×512         | Per-pixel class map   | [🔗](https://github.com/Junjue-Wang/LoveDA) |
 | FAIR1M  | Fine-Grained Detection| 15,000+ | 37        | 1M+ objects     | Very high-res   | Oriented Bounding Box | [🔗](https://www.gaofen-challenge.com/benchmark) |
 | AID     | Scene Classification | 10,000   | 30        | ~2.2 GB         | 600×600         | Single scene label    | [🔗](https://captain-whu.github.io/AID/) |
+| iSAID   | Instance Segmentation | 2,806    | 15        | ~655k objects    | Very high-res   | Pixel-wise masks     | [🔗](https://captain-whu.github.io/iSAID/dataset.html) |
 
 
 ---
@@ -238,6 +269,10 @@ Working with large-scale satellite or aerial imagery data can be overwhelming. T
 | 28       | Storage tank       | Large circular containers               |
 | 29       | Viaduct            | Elevated roads                          |
 
+---
+
+### 🔹 iSAID – 15 Instance Segmentation Classes
+(Same object categories as DOTA but with pixel-level masks)
 
 
 ## 🔜 Coming Soon
